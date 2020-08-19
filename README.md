@@ -22,6 +22,7 @@ A discussion forum for popular books strictly upon demand, there will be channel
 
 ## Solutioning and Methodology:
 
+### Constraints:
 **Cataloguing in the App:**
 A retrieval system would be needed to form a database, in case the library has the records in written format.
 If the library is already equipped with a modern database system, then we would just need to access  the pre existing databases.
@@ -68,7 +69,4 @@ We can approach the various cities under **Smart-City Project** that have their 
 Many Cities have provision of citizens’ contribution and this can be seen as **Community Outreach**. The system would be **open to all**, specifically book lovers who have a system made to cater their needs.
  It will be a Community Outreach program for smart cities **for a more read and engaged society**. Thus, any progressive governance would be willing to include it in their goals.
 
-Visualisations:
-
-https://imgur.com/a/nkxHegW
 

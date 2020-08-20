@@ -40,7 +40,7 @@ Other users can view other users’ **Basket** and **Wishlist**, and request, le
 Vendors will be given a separate type of account that  is **specifically made to sell** new as well as second hand books.
 A **comparison for rates and exchange values** will be  provided that **assist users** in the process.
 
-** A User review system to determine reading trends:** 
+**A User review system to determine reading trends:** 
 The app would take **reviews from users** and other review sites, and analyze them **to determine the demands and requirements** of the local audience.
 Trends will be decided **on the basis of geographical distance**, and higher priority will be given to **local reading-trends**.
 
@@ -56,13 +56,13 @@ The suggestion feature has Location as a parameter, so there would be certain **
 
 ## Tech Stack: 
 
-We would be using **Flutter** to build our app, which uses **DART** as it’s programming language. It is a **hybrid app development** process which helps deploying **apps for web, android, iOS** all through a single codebase. Flutter **renders the app independently** on the device hence performance would be at par with native apps. 
-We would integrate our app, with Google’s **Firebase**, which is a cloud service. We would use it to store our data on their servers. Hence, **scalability and security** are of no concern. Our app would be able to scale to any amount of users with any problems and would be completely secure. 
-We would be using **Firestore**, to store and sync users app data to a global scale and would be using **Firebase ML**, for suggesting further books to read on the basis of what genre of books is generally issued by the user and the ratings given to them. No other personal data would be used in this process hence **respecting user’s privacy**. 
-Users can login to our app, and we would use the  **Lowest geolocation signal** which would help us identify the user’s city location and it would help us navigate them to the best rated libraries around them. This way we won’t get the exact user’s location but instead just the city where the user is located, and the user could use Google Maps which we would integrate in our app to go to that library, **without any compromise on user’s privacy and data**. 
-All of the above would be maintained through a **single codebase**, hence updating and maintaining our app would be easy. 
-For the review system, we are going to implement **Sentiment Analysis** using Natural Language Processing (NLP)** Techniques.  This will help us identify and segregate positive and negative reviews from each other and improve the services of the libraries. Performing Sentiment Analysis on book reviews would also help the libraries in better managing their itinerary. For this application, we are going to use: **REST API to gather reviews data and user-related information**.
-For the data retrieval from libraries with handwritten records, we are going to use **Optical character recognition (OCR)**, a computer vision application that can be used to convert images of digital or hand-written text images to a **machine-readable text format that can be processed, stored and edited**. 
+* We would be using **Flutter** to build our app, which uses **DART** as it’s programming language. It is a **hybrid app development** process which helps deploying **apps for web, android, iOS** all through a single codebase. Flutter **renders the app independently** on the device hence performance would be at par with native apps. 
+* We would integrate our app, with Google’s **Firebase**, which is a cloud service. We would use it to store our data on their servers. Hence, **scalability and security** are of no concern. Our app would be able to scale to any amount of users with any problems and would be completely secure. 
+* We would be using **Firestore**, to store and sync users app data to a global scale and would be using **Firebase ML**, for suggesting further books to read on the basis of what genre of books is generally issued by the user and the ratings given to them. No other personal data would be used in this process hence **respecting user’s privacy**. 
+* Users can login to our app, and we would use the  **Lowest geolocation signal** which would help us identify the user’s city location and it would help us navigate them to the best rated libraries around them. This way we won’t get the exact user’s location but instead just the city where the user is located, and the user could use Google Maps which we would integrate in our app to go to that library, **without any compromise on user’s privacy and data**. 
+* All of the above would be maintained through a **single codebase**, hence updating and maintaining our app would be easy. 
+* For the review system, we are going to implement **Sentiment Analysis** using Natural Language Processing (NLP)** Techniques.  This will help us identify and segregate positive and negative reviews from each other and improve the services of the libraries. Performing Sentiment Analysis on book reviews would also help the libraries in better managing their itinerary. For this application, we are going to use: **REST API to gather reviews data and user-related information**.
+* For the data retrieval from libraries with handwritten records, we are going to use **Optical character recognition (OCR)**, a computer vision application that can be used to convert images of digital or hand-written text images to a **machine-readable text format that can be processed, stored and edited**. 
 
 ## Future prospects:
 We can approach the various cities under **Smart-City Project** that have their **SPV's** to pitch the idea, get necessary approval and get it implemented. 

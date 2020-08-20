@@ -13,46 +13,46 @@ If we go deeper, we will find that the problem also lies in the **degrading LIBR
 
 ## Description of desired application:
 
-At the Initial Stage we want to make an app that  has catalogued all the books in different libraries in a particular city(filter option available: City, Library name, Genre..etc), we plan to cover Many more cities after initial release.
-Users would be able to issue a book online. The Librarian will get the request and will get the book ready for collection as and when demanded by the user. The missing and return date will be strictly monitored and will be available in the app for another person to send an issuing request accordingly. 
-There would be an option for individuals to make their own mini-library platform to exchange and lend the books with almost the same rules as applied for Public/Private libraries.
-We will also provide a section for any book vendors interested in selling the books through our app and provide comparison for rates and exchange values that assist users in the process.
-User Review system: It enables libraries to meet members demands more efficiently and attract more members to the reading community. This would enable librarians to run the library more smoothly, maintain book quality and deal with shortages and demands for books easily.
-A discussion forum for popular books strictly upon demand, there will be channels for different book to be discussed separately
+1. At the Initial Stage we want to make an app that  has catalogued all the books in different libraries in a particular city(filter option available: City, Library name, Genre..etc), we plan to cover Many more cities after initial release.
+2. Users would be able to issue a book online. The Librarian will get the request and will get the book ready for collection as and when demanded by the user. The missing and return date will be strictly monitored and will be available in the app for another person to send an issuing request accordingly. 
+3. There would be an option for individuals to make their own mini-library platform to exchange and lend the books with almost the same rules as applied for Public/Private libraries.
+4. We will also provide a section for any book vendors interested in selling the books through our app and provide comparison for rates and exchange values that assist users in the process.
+5. User Review system: It enables libraries to meet members demands more efficiently and attract more members to the reading community. This would enable librarians to run the library more smoothly, maintain book quality and deal with shortages and demands for books easily.
+6. A discussion forum for popular books strictly upon demand, there will be channels for different book to be discussed separately
 
 ## Solutioning and Methodology:
 
-### Constraints:
-**Cataloguing in the App:**
+### Features:
+**1. Cataloguing in the App:**
 A retrieval system would be needed to form a database, in case the library has the records in written format.
 If the library is already equipped with a modern database system, then we would just need to access  the pre existing databases.
 
- **Online issuing and book tracking:** 
+ **2. Online issuing and book tracking:** 
 A **real-time updating database** that monitors every transaction of books in the library.
 Every time a book is issued or returned, it gets updated in the database.
 Users can make **issue requests**, which will be accepted or rejected based on availability. Users would be **notified later when the book is available**.
 
-**Virtual mini-library for each user: **
+**3. Virtual mini-library for each user: **
 Allows users to make  a list of the books they want to share, i.e. **The basket** and a list of books they want to read, i.e. **The wishlist**.
 Other users can view other users’ **Basket** and **Wishlist**, and request, lend or exchange books accordingly.
 
- **Section for book vendors and rate comparison for users:** 
+ **4. Section for book vendors and rate comparison for users:** 
 Vendors will be given a separate type of account that  is **specifically made to sell** new as well as second hand books.
 A **comparison for rates and exchange values** will be  provided that **assist users** in the process.
 
-**A User review system to determine reading trends:** 
+**5. A User review system to determine reading trends:** 
 The app would take **reviews from users** and other review sites, and analyze them **to determine the demands and requirements** of the local audience.
 Trends will be decided **on the basis of geographical distance**, and higher priority will be given to **local reading-trends**.
 
-**A discussion forum for popular books**: 
+**6. A discussion forum for popular books**: 
 The App will have  a **discussion forum** feature that allows readers to discuss a** book or genre**.
 This feature will be available to users for a **selected number of books/genres**, whose  **activity and participation crosses a threshold**.
 
 ### Constraints: 
-Apps built with flutter are generally **larger in size** than it’s native counterparts hence, **downloading size  would be larger**. Hence would **require more space** in the user's device.
-An **Initial investment** of capital would be required from our side  to provide the best user experience to the small user base which we would have at the beginning. With proper marketing and advertising, the popularity of the App is expected to boost within no time. 
-Using Optical character recognition (OCR) may face challenges, since library **records may be very old, unorganised  and in poor condition**. 
-The suggestion feature has Location as a parameter, so there would be certain **constraints in the information we ask users** in order to provide them the best service, **without compromising their privacy**.
+* Apps built with flutter are generally **larger in size** than it’s native counterparts hence, **downloading size  would be larger**. Hence would **require more space** in the user's device.
+* An **Initial investment** of capital would be required from our side  to provide the best user experience to the small user base which we would have at the beginning. With proper marketing and advertising, the popularity of the App is expected to boost within no time. 
+* Using Optical character recognition (OCR) may face challenges, since library **records may be very old, unorganised  and in poor condition**. 
+* The suggestion feature has Location as a parameter, so there would be certain **constraints in the information we ask users** in order to provide them the best service, **without compromising their privacy**.
 
 ## Tech Stack: 
 
@@ -65,8 +65,8 @@ The suggestion feature has Location as a parameter, so there would be certain **
 * For the data retrieval from libraries with handwritten records, we are going to use **Optical character recognition (OCR)**, a computer vision application that can be used to convert images of digital or hand-written text images to a **machine-readable text format that can be processed, stored and edited**. 
 
 ## Future prospects:
-We can approach the various cities under **Smart-City Project** that have their **SPV's** to pitch the idea, get necessary approval and get it implemented. 
-Many Cities have provision of citizens’ contribution and this can be seen as **Community Outreach**. The system would be **open to all**, specifically book lovers who have a system made to cater their needs.
- It will be a Community Outreach program for smart cities **for a more read and engaged society**. Thus, any progressive governance would be willing to include it in their goals.
+* We can approach the various cities under **Smart-City Project** that have their **SPV's** to pitch the idea, get necessary approval and get it implemented. 
+* Many Cities have provision of citizens’ contribution and this can be seen as **Community Outreach**. The system would be **open to all**, specifically book lovers who have a system made to cater their needs.
+* It will be a Community Outreach program for smart cities **for a more read and engaged society**. Thus, any progressive governance would be willing to include it in their goals.
 
 

@@ -32,7 +32,7 @@ A **real-time updating database** that monitors every transaction of books in th
 Every time a book is issued or returned, it gets updated in the database.
 Users can make **issue requests**, which will be accepted or rejected based on availability. Users would be **notified later when the book is available**.
 
-**3. Virtual mini-library for each user: **
+**3. Virtual mini-library for each user:**
 Allows users to make  a list of the books they want to share, i.e. **The basket** and a list of books they want to read, i.e. **The wishlist**.
 Other users can view other users’ **Basket** and **Wishlist**, and request, lend or exchange books accordingly.
 
